@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <main>
       <Button variant="outline-primary">Primary</Button>{' '}
-      <Cabecalho/>
-      <a href="/fundamentos"> Pagina fundamentos</a> <br/>
-      <Link href='/fundamentos'> paginas fundamentos</Link>
+      <Cabecalho />
+
+      <Link href='/fundamentos'> Paginas fundamentos</Link>
 
     </main>
   );
