@@ -5,10 +5,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
+
       <Button variant="outline-primary">Primary</Button>{' '}
-      <Cabecalho />
+
+      <Cabecalho titulo="Página Inicial" subtitulo="Agora vai"/>
+      <Cabecalho titulo="Página Inicial" subtitulo="Sim"/>
 
       <Link href='/fundamentos'> Paginas fundamentos</Link>
+      
 
     </main>
   );

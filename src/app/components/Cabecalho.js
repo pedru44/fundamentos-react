@@ -1,10 +1,12 @@
-export default function Cabecalho() {
-  
+export default function Cabecalho(props) {
+
+  //const cor = 'text-'  + props.cor
+    
     return (
       <>
         <div>
-          <h1>Cabeçalho</h1>
-          <p>Isto é o cabeçaçho da página</p>
+          <h1 className="{text-danger}">{props.titulo}</h1>
+          <p>{props.subtitulo}</p>
         </div>
       </>
     );
