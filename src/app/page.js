@@ -8,11 +8,11 @@ export default function Home() {
 
       <Button variant="outline-primary">Primary</Button>{' '}
 
-      <Cabecalho titulo="Página Inicial" subtitulo="Agora vai"/>
-      <Cabecalho titulo="Página Inicial" subtitulo="Sim"/>
+      <Cabecalho titulo="Página Inicial" subtitulo="Agora vai" />
+      <Cabecalho titulo="Página Inicial" subtitulo="Sim" />
 
       <Link href='/fundamentos'> Paginas fundamentos</Link>
-      
+
 
     </main>
   );
