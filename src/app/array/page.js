@@ -1,18 +1,31 @@
 'use client'
-import { Container, Nav, Navbar } from "react-bootstrap";
 import Pagina from "../components/Pagina";
-
 
 export default function Array() {
 
+    const carros = ["Corsa","Celta","Ferrari","Fusca","Cobalt",]
+    const pessoas = ["Maysa","Pedro","Marta","Carlos","Edna",]
+
     return (
         <>
-            <Pagina titulo="Página de Array"> 
-                <h2>Conteudo Pagina</h2>
-                <p>Conteudo da Página</p>
-                <p>Conteudo da Página</p>
-            </Pagina>
-            
+        {/*loop*/ }
+        <Pagina titulo="Página de Array">
+               {carros.map(item => (
+                    <p>{item}</p>
+                ))}
+                  {pessoas.map(item => (
+                       <p>{item}</p>
+                   ))}
+
+            <ul>
+            {carros.map(item => (
+                <li>{item}</li>
+            ))}
+            </ul>
+
+        </Pagina>
+
         </>
+        
     );
 }
