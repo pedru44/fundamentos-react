@@ -51,7 +51,7 @@ export default function Objetos(props) {
 
   return (
     <Pagina titulo="Carros">
-      <Container className="mt-5"> {/* Container adicional para controlar o  espaçamento da página */}
+      <Container className="mt-5"> 
         <Row>
           {carros.map((item) => (
             <Col key={item.id} sm={12} md={6} lg={4} className="mb-4">

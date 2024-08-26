@@ -7,12 +7,13 @@ export default function Pagina(props) {
         <>
         <Navbar bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#home">Sistema Academico</Navbar.Brand>
+                <Navbar.Brand href="/">Inicio</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Página 1</Nav.Link>
-                    <Nav.Link href="#features">Página 2</Nav.Link>
-                    <Nav.Link href="#pricing">Array</Nav.Link>
-                    <Nav.Link href="#pricing">Carro</Nav.Link>
+                    <Nav.Link href="/fundamentos">Fundamentos</Nav.Link>
+                    <Nav.Link href="/clientes">Clientes</Nav.Link>
+                    <Nav.Link href="/array">Array</Nav.Link>
+                    <Nav.Link href="/objetos">Objetos</Nav.Link>
+                    <Nav.Link href="/nomes">Nomes</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
