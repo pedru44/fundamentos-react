@@ -18,9 +18,9 @@ export default function Numeros(){
 
     return (
         <Pagina titulo="Números">
-            <Button onClick={aumentar}>+</Button>
+            <Button onClick={aumentar} variant="outline-dark">+</Button>
             <h1>{numero}</h1>
-            <Button onClick={diminuir}>_</Button>
+            <Button onClick={diminuir} variant="outline-dark">_</Button>
             
 
         </Pagina>
