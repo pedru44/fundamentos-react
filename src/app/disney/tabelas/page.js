@@ -27,7 +27,7 @@ export default function DisneyTabelas() {
       </thead>
       <tbody>
         {personagens.map((item) => (
-          <tr key={item.id}>
+          <tr key={item._id}>
             <td>{item._id}</td>
             <td>{item.name}</td>
             <td><img height={45} src={item.imageUrl} /></td>

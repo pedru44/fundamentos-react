@@ -20,7 +20,7 @@ export default function DisneyCarrossel() {
       <Carousel.Item>
         <img height="750" width="1500" src={item.imageUrl}/>
         <Carousel.Caption>
-          <h3>{item.name}</h3>
+          <h3 key={item._id} >{item.name}</h3>
         </Carousel.Caption>
       </Carousel.Item>
         ))}
